@@ -145,4 +145,34 @@
     <!-- Cinematic top shelf (cinematic_home): the line under the focused dock app's name; %1$s is when it was
          last opened, e.g. "5 minutes ago" or "yesterday, 9:40 pm". -->
     <string name="last_opened">Last opened %1$s</string>
+
+    <!-- Power theme's welcome (WelcomeActivity): the greeting when the TV comes on, with greeting_name as %1$s. -->
+    <string name="power_hello_morning">Good morning</string>
+    <string name="power_hello_morning_name">Good morning, %1$s</string>
+    <string name="power_hello_afternoon">Good afternoon</string>
+    <string name="power_hello_afternoon_name">Good afternoon, %1$s</string>
+    <string name="power_hello_evening">Good evening</string>
+    <string name="power_hello_evening_name">Good evening, %1$s</string>
+    <string name="power_hello_night">Still up?</string>
+    <string name="power_hello_night_name">Still up, %1$s?</string>
+    <string name="power_question_morning">How are you starting the day?</string>
+    <string name="power_question_afternoon">What\'s the mood this afternoon?</string>
+    <string name="power_question_evening">How are you feeling tonight?</string>
+    <string name="power_question_night">What would feel good right now?</string>
+    <!-- The same screen opened from Home to change mode. -->
+    <string name="power_pick_title">Change the mood</string>
+    <string name="power_pick_question">What are you in the mood for?</string>
+    <!-- Tag on the card suggested for this hour; shown in capitals. -->
+    <string name="power_suggested">SUGGESTED</string>
+    <!-- Countdown before the welcome starts the suggested mood: %1$s is the mood ("Relaxed"), %2$d the seconds left.
+         It ends with a separator because power_hint follows on the same line. -->
+    <string name="power_auto">Starting %1$s in %2$d s  ·</string>
+    <string name="power_hint">Arrows to choose · OK to start · Back keeps the last mode</string>
+    <!-- Launcher settings: Home's layout, which wins over the theme's "layout" until Follow theme. -->
+    <string name="home_layout_label">Home layout</string>
+    <string name="layout_grid">Grid</string>
+    <string name="layout_honeycomb">Honeycomb</string>
+    <string name="layout_words">Big words</string>
+    <!-- Launcher settings, only with a Power theme: %1$s is the current mode's mood, e.g. "Relaxed". OK opens the mode picker. -->
+    <string name="mood_state">Mood: %1$s</string>
 </resources>
